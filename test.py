@@ -7,9 +7,10 @@ topFrame.pack()
 bottomFrame = Frame(root)
 bottomFrame.pack(side = BOTTOM)
 
-button1 = Button(topFrame, text = "New Record", fg = "red").pack()
-button2 = Button(topFrame, text = "Update Record", fg = "blue").pack()
-button3 = Button(bottomFrame, text = "Update Record", fg = "green").pack()
+instructions = Label(topFrame, text = "WELCOME TO THE DR PHIL PROMO STATUS PROGRAM!", bg = "light blue").pack(fill = X)
+button1 = Button(topFrame, text = "New Record", fg = "red").pack(side = RIGHT)
+button2 = Button(topFrame, text = "Update Record", fg = "blue").pack(side = RIGHT)
+button3 = Button(bottomFrame, text = "Print Record", fg = "green").pack()
 
 
 
